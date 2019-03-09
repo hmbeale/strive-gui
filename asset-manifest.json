@@ -1,14 +1,13 @@
 {
   "main.css": "/strive-gui/static/css/main.62dac5f3.chunk.css",
-  "main.js": "/strive-gui/static/js/main.2d481f1f.chunk.js",
-  "main.js.map": "/strive-gui/static/js/main.2d481f1f.chunk.js.map",
+  "main.js": "/strive-gui/static/js/main.d01b2e79.chunk.js",
+  "main.js.map": "/strive-gui/static/js/main.d01b2e79.chunk.js.map",
   "runtime~main.js": "/strive-gui/static/js/runtime~main.a4127f3c.js",
   "runtime~main.js.map": "/strive-gui/static/js/runtime~main.a4127f3c.js.map",
-  "static/js/2.3d321fc4.chunk.js": "/strive-gui/static/js/2.3d321fc4.chunk.js",
-  "static/js/2.3d321fc4.chunk.js.map": "/strive-gui/static/js/2.3d321fc4.chunk.js.map",
+  "static/js/2.5bea66f3.chunk.js": "/strive-gui/static/js/2.5bea66f3.chunk.js",
+  "static/js/2.5bea66f3.chunk.js.map": "/strive-gui/static/js/2.5bea66f3.chunk.js.map",
   "index.html": "/strive-gui/index.html",
-  "precache-manifest.282e7ddf4c6e1f8f459da3e9e5a2e017.js": "/strive-gui/precache-manifest.282e7ddf4c6e1f8f459da3e9e5a2e017.js",
+  "precache-manifest.086c7382d8b8b3c43028da7c4375a591.js": "/strive-gui/precache-manifest.086c7382d8b8b3c43028da7c4375a591.js",
   "service-worker.js": "/strive-gui/service-worker.js",
-  "static/css/main.62dac5f3.chunk.css.map": "/strive-gui/static/css/main.62dac5f3.chunk.css.map",
-  "static/media/map0.png": "/strive-gui/static/media/map0.a46e318e.png"
+  "static/css/main.62dac5f3.chunk.css.map": "/strive-gui/static/css/main.62dac5f3.chunk.css.map"
 }
