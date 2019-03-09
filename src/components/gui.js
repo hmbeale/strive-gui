@@ -23,7 +23,9 @@ const styles = theme => ({
     marginLeft: "auto",
     marginRight: "auto",
     height: 635,
-    
+    [theme.breakpoints.down('sm')]: {
+      marginTop:0,
+    }
   }
 });
 
