@@ -18,8 +18,6 @@ class App extends React.Component {
   handleButtonOneClick = () => {
     this.setState(
       {
-      blockFiveText: this.state.blockFourText,
-      blockFourText: this.state.blockThreeText,
       blockThreeText: this.state.blockTwoText,
       blockTwoText: this.state.blockOneText,
       blockOneText: playerMoveForward(),
@@ -30,8 +28,6 @@ class App extends React.Component {
     //playerAttack returns text based on game logic
     this.setState(
       {
-        blockFiveText: this.state.blockFourText,
-        blockFourText: this.state.blockThreeText,
         blockThreeText: this.state.blockTwoText,
         blockTwoText: this.state.blockOneText,
         blockOneText: playerAttack(),
@@ -42,8 +38,6 @@ class App extends React.Component {
     //playerDefend returns text based on game logic
     this.setState(
       {
-        blockFiveText: this.state.blockFourText,
-        blockFourText: this.state.blockThreeText,
         blockThreeText: this.state.blockTwoText,
         blockTwoText: this.state.blockOneText,
         blockOneText: playerDefend(),
@@ -54,8 +48,6 @@ class App extends React.Component {
     //playerFlee returns text based on game logic
     this.setState(
       {
-        blockFiveText: this.state.blockFourText,
-        blockFourText: this.state.blockThreeText,
         blockThreeText: this.state.blockTwoText,
         blockTwoText: this.state.blockOneText,
         blockOneText: playerFlee(),
@@ -66,16 +58,12 @@ class App extends React.Component {
     const blockOneText = this.state.blockOneText;
     const blockTwoText = this.state.blockTwoText;
     const blockThreeText = this.state.blockThreeText;
-    const blockFourText = this.state.blockFourText;
-    const blockFiveText = this.state.blockFiveText;
 
     return (
       <GUI
         blockOneText = {blockOneText}
         blockTwoText = {blockTwoText}
         blockThreeText = {blockThreeText}
-        blockFourText = {blockFourText}
-        blockFiveText = {blockFiveText}
         handleButtonOneClick={this.handleButtonOneClick}
         handleButtonTwoClick = {this.handleButtonTwoClick}
         handleButtonThreeClick = {this.handleButtonThreeClick}

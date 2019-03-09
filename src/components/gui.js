@@ -52,8 +52,6 @@ class GUI extends React.Component {
     const blockOneText = this.props.blockOneText;
     const blockTwoText = this.props.blockTwoText;
     const blockThreeText = this.props.blockThreeText;
-    const blockFourText = this.props.blockFourText;
-    const blockFiveText = this.props.blockFiveText;
 
     return (
       <Card className={classes.card}>
@@ -61,8 +59,6 @@ class GUI extends React.Component {
           blockOneText = {blockOneText}
           blockTwoText = {blockTwoText}
           blockThreeText = {blockThreeText}
-          blockFourText = {blockFourText}
-          blockFiveText = {blockFiveText}
           />
         <MyCardActions
           handleButtonOneClick = {this.handleButtonOneClick}
