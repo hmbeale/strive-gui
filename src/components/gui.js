@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import MyCardMedia from './myCardMedia';
 import MyCardContent from './myCardContent.js';
 import MyCardActions from './myCardActions.js';
 
