@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/strive-gui/static/js/runtime~main.a4127f3c.js"
   },
   {
-    "revision": "d01b2e79062b61622714",
-    "url": "/strive-gui/static/js/main.d01b2e79.chunk.js"
+    "revision": "ba0352cac117c8e8fd28",
+    "url": "/strive-gui/static/js/main.ba0352ca.chunk.js"
   },
   {
     "revision": "5bea66f3d41d337c8521",
     "url": "/strive-gui/static/js/2.5bea66f3.chunk.js"
   },
   {
-    "revision": "d01b2e79062b61622714",
+    "revision": "ba0352cac117c8e8fd28",
     "url": "/strive-gui/static/css/main.62dac5f3.chunk.css"
   },
   {
-    "revision": "edc39ef6ba813e7ab231bb4afb795f6b",
+    "revision": "3069f0b5270f9de2a4cbc926e07b0640",
     "url": "/strive-gui/index.html"
   }
 ];
