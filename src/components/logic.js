@@ -1,5 +1,5 @@
 import {player, playerDispositions, creature, creatureSizes, creatureTypes, scenery,
-        sceneryAdjectives, sceneryTypes, distNeeded} from './objects.js'
+        sceneryAdjectives, sceneryTypes} from './objects.js'
 
 const getRandom = (min, max) => {
   min = Math.ceil(min);
@@ -9,17 +9,8 @@ const getRandom = (min, max) => {
 
 const moveForward = () => {
   player.distanceTraveled++;
-  return 'you move forward. ';
+  return 'You move forward. ';
 };
-
-const checkPlayerSuccess = () => {
-  if (player.distanceTraveled >= distNeeded) {
-    player.reachedDestination = true;
-    return 'you made it to your destination, congratulations\n' +
-          'refresh the page if you want another journey';
-  }
-  return '';
-}
 
 const updateScenery = () => {
   scenery.type = sceneryTypes[getRandom(0, sceneryTypes.length - 1)];
@@ -28,7 +19,7 @@ const updateScenery = () => {
 };
 
 const describeScenery = () => {
-  return `you see a ${scenery.adjective} ${scenery.type} \n`
+  return `You see a ${scenery.adjective} ${scenery.type}. `
 }
 
 const updatePlayerDisposition = () => {
@@ -76,31 +67,31 @@ const resolveCombatDamage = (playerAttack, creatureAttack) => {
   if (creatureAttack > 0) {
     player.health = player.health - creatureAttack;
   }
-  return (`the ${creature.type} attacks\nyour health is ${player.health}/${player.maxHealth} \n`)
+  return (`The ${creature.type} attacks. Your health is ${player.health}/${player.maxHealth}. `)
 };
 
 const slaycreature = () => {
   player.inCombat = false;
   creature.attack = 0;
-  return `you slay the ${creature.type} \n`;
+  return `You slay the ${creature.type}. `;
 };
 
 const playerCombatDeath = () => {
     player.isAlive = false;
-    return `the ${creature.type} slew you`;
+    return `The ${creature.type} slew you. `;
 }
 
 
 const postCombatHeal = () => {
   let outputText = '';
   if (player.health < player.combatStartHealth) {
-    outputText += 'you bind your wounds as best you can\n';
+    outputText += 'You bind your wounds as best you can. ';
     playerHeal(player.combatHealValue);
     //fighting shouldn't make you healthier than when you started
     if (player.health > player.combatStartHealth) {
       player.health = player.combatStartHealth;
     }
-    outputText+=`your health is ${player.health}/${player.maxHealth} \n`
+    outputText+=`Your health is ${player.health}/${player.maxHealth}. `
   }
   return outputText;
 };
@@ -114,5 +105,5 @@ const playerHeal = (healAmount) => {
 
 export  {getRandom, moveForward, updateScenery, updatePlayerDisposition,
          startCombat, createCreature, standardCombatRound, resolveCombatDamage,
-         slaycreature, postCombatHeal, playerHeal, checkPlayerSuccess,
+         slaycreature, postCombatHeal, playerHeal,
        describeScenery};

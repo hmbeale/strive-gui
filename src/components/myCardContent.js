@@ -23,24 +23,17 @@ class MyCardContent extends React.Component {
     return (
       <CardContent className = {classes.cardcontent}>
 
-      <pre>
         <Typography component="p" className={classes.text}>
           {this.props.blockThreeText}
         </Typography>
-      </pre>
 
-      <pre>
         <Typography component="p" className={classes.text}>
           {this.props.blockTwoText}
         </Typography>
-      </pre>
 
-
-      <pre>
         <Typography component="p" className={classes.text}>
           {this.props.blockOneText}
         </Typography>
-      </pre>
 
       </CardContent>
     );

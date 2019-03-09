@@ -18,10 +18,10 @@ const player = {
 };
 
 const playerDispositions = [
-  'you hear some birds chirping',
-  'your feet ache',
-  'you feel a pleasant breeze',
-  'sweat trickles from your brow'
+  'You hear some birds chirping',
+  'Your feet ache',
+  'You feel a pleasant breeze',
+  'Sweat trickles from your brow'
 ];
 
 const creature = {
@@ -35,8 +35,8 @@ const creatureSizes = ['delicate', 'medium sized', 'large', 'hulking'];
 const creatureTypes = [
   'beast with dulled fangs',
   'creature with sharp claws',
-  'beast with many \nfearsome horns',
-  'creature with \nflames dripping from its jaws'
+  'beast with many fearsome horns',
+  'creature with flames dripping from its jaws'
 ];
 
 const scenery = {
@@ -47,7 +47,7 @@ const scenery = {
 
 const sceneryAdjectives = ['small', 'big', 'dark', 'sunlit'];
 const sceneryTypes = ['river', 'pool of water', 'tree', 'cluster of bushes',
-                      'tower', 'town in \nthe distance', 'flock of birds', 'cloud'];
+                      'tower', 'town in the distance', 'flock of birds', 'cloud'];
 
 const distNeeded = 30;
 

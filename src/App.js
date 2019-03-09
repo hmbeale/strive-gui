@@ -9,11 +9,9 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      blockOneText: 'Welcome to strive',
-      blockTwoText: '',
-      blockThreeText: '',
-      blockFourText: 'you are journeying across a landscape of some peril',
-      blockFiveText: 'welcome to strive'
+      blockOneText: 'Take care. ',
+      blockTwoText: 'You are journeying across a landscape of some peril. ',
+      blockThreeText: 'Welcome to Strive. ',
     };
   }
 
