@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/strive-gui/precache-manifest.086c7382d8b8b3c43028da7c4375a591.js"
+  "/strive-gui/precache-manifest.c3e1d2850ad2b2e0c0ff023d9bdca98b.js"
 );
 
 workbox.clientsClaim();
